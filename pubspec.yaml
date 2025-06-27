@@ -1,0 +1,32 @@
+name: sutoory_website
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^2.0.10
+  url_launcher: ^6.2.5
+
+flutter:
+  assets:
+    - assets/Sutoory.svg
+    - assets/x.png
+    - assets/wattpad.png
+    - assets/Instagram.png
+  uses-material-design: true
+
+ 
+   
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+  
